@@ -2,6 +2,8 @@ import phoneframe from "../../assets/home/desktop/image-hero-phone.png"
 import passionate from "../../assets/home/desktop/illustration-passionate.svg"
 import resourceful from "../../assets/home/desktop/illustration-resourceful.svg"
 import friendly from "../../assets/home/desktop/illustration-friendly.svg"
+import logo from "../../assets/shared/desktop/logo-light.png"
+import facebook from "../../assets/shared/desktop/icon-facebook.svg"
 
 
 const HomePage = () => {
@@ -49,6 +51,33 @@ const HomePage = () => {
                         <img src={friendly} alt="friendly" />
                         <h2>Friendly</h2>
                         <p>We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="footer">
+                    <div className="footer-textfield">
+                        <img src={logo} alt="logo" />
+                        <h2 id="h2-1">OUR COMPANY</h2>
+                        <h2 id="h2-2">LOCATIONS</h2>
+                        <h2 id="h2-3">CONTACT</h2>
+                        <div className="footertext">
+                            <p>Designo Central Office</p>
+                            <p>3886 Wellington Street</p>
+                            <p>Toronto, Ontario M9C 3J5</p>
+                        </div>
+                        <div className="footertext">
+                            <p>Contact Us (Central Office)</p>
+                            <p>P : +1 253-863-8967</p>
+                            <p>M : contact@designo.co</p>
+                        </div>
+                        <div className="socialicon-area">
+                            <img src={facebook} alt="facebook" />
+                            <img src="" alt="" />
+                            <img src="" alt="" />
+                            <img src="" alt="" />
+                            <img src="" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
