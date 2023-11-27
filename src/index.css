@@ -1,13 +1,95 @@
-body {
+html, body, #root, .container {
+  font-size: 15px;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.row {
+  z-index: 0;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  height: 6.4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-area {
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1.6em;
+}
+
+.logo {
+  height: 1.8em;
+}
+
+.menu-area {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.6em;
+}
+
+.hamburger {
+  height: 1.8em;
+}
+
+/* Hero */
+
+.hero {
+  height: 56.2em;
+  display: flex;
+  flex-direction: column;
+  background-color: #E7816B;
+  margin: 0;
+  z-index: 1;
+}
+
+.textfield-hero {
+  width: 21.8em;
+  height: 20.8em;
+  margin: 5.53em 1.6em 0 1.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textfield-hero > h1 {
+  font-size: 2.13em;
+  text-align: center;
+}
+
+.textfield-hero > p {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 0.93em;
+}
+
+.hero-btn {
+  width: 10.13em;
+  height: 3.73em;
+  color: #333136;
+  margin-top: 1.6em;
+  background-color: #FFFFFF;
+}
+
+.phoneimg-area {
+  position: absolute;
+  height: 38.2em;
+  width: 18.6em;
+  top: 38.2em;
+  margin-right: 3.1753em;
+  margin-left: 3.2246em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
 }
