@@ -13,6 +13,27 @@ const HomePage = () => {
                     <img className="phoneimg-hero" src={phoneframe} alt="phoneframe" />
                 </div>
             </div>
+            <div className="row">
+                <div className="project-btn-area">
+                    <button type="button" className="btn project-btn project-btn-first">
+                        <h1>WEB DESIGN</h1>
+                        <h2>VIEW PROJECTS</h2>
+                    </button>
+                    <button type="button" className="btn project-btn project-btn-second">
+                        <h1>App Design</h1>
+                        <h2>VIEW PROJECTS</h2>
+                    </button>
+                    <button type="button" className="btn project-btn project-btn-third">
+                        <h1>Graphic Design</h1>
+                        <h2>VIEW PROJECTS</h2>
+                    </button>
+                </div>
+            </div>
+            <div className="row">
+                <div className="keyword-area">
+
+                </div>
+            </div>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-html, body, #root, .container {
+html, body {
   font-size: 15px;
   width: 100vw;
   height: 100vh;
@@ -6,8 +6,19 @@ html, body, #root, .container {
   padding: 0;
 }
 
+#root, .container {
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .row {
-  z-index: 0;
+  max-width: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
 }
 
 /* Header */
@@ -50,7 +61,6 @@ html, body, #root, .container {
   flex-direction: column;
   background-color: #E7816B;
   margin: 0;
-  z-index: 1;
 }
 
 .textfield-hero {
@@ -91,5 +101,68 @@ html, body, #root, .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 0;
 }
+
+/* project buttons */
+
+.project-btn-area {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.project-btn > h1 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.project-btn > h2 {
+  font-size: 1em;
+}
+
+.project-btn-first {
+  width: 21.8em;
+  height: 16.6em;
+  margin: 8em 1.6em 1.6em 1.6em;
+  background: rgba(0, 0, 0, .65) url(./assets/home/mobile/image-web-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  border-radius: 1em;
+  color: white;
+}
+
+.project-btn-second {
+  width: 21.8em;
+  height: 16.6em;
+  margin: 1.6em 1.6em 1.6em 1.6em;
+  background: rgba(0, 0, 0, .65) url(./assets/home/mobile/image-app-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  border-radius: 1em;
+  color: white;
+}
+
+.project-btn-third {
+  width: 21.8em;
+  height: 16.6em;
+  margin: 1.6em 1.6em 0 1.6em;
+  background: rgba(0, 0, 0, .65) url(./assets/home/mobile/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  border-radius: 1em;
+  color: white;
+}
+
+/* Key Words*/
+
+.keyword-area {
+  
+}
+
