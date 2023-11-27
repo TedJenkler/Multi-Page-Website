@@ -163,6 +163,40 @@ html, body {
 /* Key Words*/
 
 .keyword-area {
-  
+  width: 327px;
+  height: 1396px;
+  margin: 120px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.passionate-card {
+  width: 327px;
+  height: 412px;
+  margin: 80px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.resourceful-card {
+  width: 327px;
+  height: 412px;
+  margin: 80px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.friendly-card {
+  width: 327px;
+  height: 412px;
+  margin: 80px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
