@@ -49,8 +49,47 @@ html, body {
   margin-right: 1.6em;
 }
 
+.menu {
+  position: absolute;
+  width: 375px;
+  height: 235px;
+  top: 95px;
+  margin: 0;
+  padding: 0;
+  background-color: #1D1C1E;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu > ul {
+  text-decoration: none;
+  margin: 48px 24px 48px 24px;
+  padding: 0;
+}
+
+.menu > ul > li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+#hamburger-menu-item2 {
+  margin: 32px 0 32px 0;
+}
+
+.menu-hidden {
+  visibility: hidden;
+}
+
 .hamburger {
   height: 1.8em;
+}
+
+.blurry {
+  opacity: 1%;
 }
 
 /* Hero */
@@ -60,6 +99,9 @@ html, body {
   display: flex;
   flex-direction: column;
   background-color: #E7816B;
+  background-image: url(./assets//home/desktop/bg-pattern-hero-home.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 102px;
   margin: 0;
 }
 
@@ -181,8 +223,26 @@ html, body {
 }
 
 .passionate-card > h2, .resourceful-card > h2, .friendly-card > h2  {
-  margin-top: 3.2em;
+  margin-top: 2.5em;
   margin-bottom: 2.13em;
+}
+
+.passionate-card > div, .resourceful-card > div, .friendly-card > div  {
+  width: 202px;
+  min-height: 202px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/home/desktop/bg-pattern-hero-home.svg);
+  background-position: center;
+  background-size: 202px;
+}
+
+.passionate-card > div > img, .resourceful-card > div > img, .friendly-card > div > img  {
+  width: 184px;
+  height: 162px;
 }
 
 .resourceful-card {
