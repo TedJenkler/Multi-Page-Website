@@ -2,8 +2,6 @@ import phoneframe from "../../assets/home/desktop/image-hero-phone.png"
 import passionate from "../../assets/home/desktop/illustration-passionate.svg"
 import resourceful from "../../assets/home/desktop/illustration-resourceful.svg"
 import friendly from "../../assets/home/desktop/illustration-friendly.svg"
-import Footer from "../Footer"
-
 
 const HomePage = ({ hamburger }) => {
     return (
@@ -59,7 +57,6 @@ const HomePage = ({ hamburger }) => {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

@@ -88,8 +88,9 @@ html, body {
   height: 1.8em;
 }
 
-.blurry {
-  opacity: 1%;
+a {
+  text-decoration: none;
+  color: white;
 }
 
 /* Hero */
@@ -290,7 +291,7 @@ html, body {
   justify-content: center;
 }
 
-.footer-textfield > img {
+.footer-textfield > a > img {
   height: 1.8em;
   width: 13.46em;
   margin: 0 4.13 0 4.2em;

@@ -1,18 +1,30 @@
 import './App.css';
+import Footer from './Components.js/Footer';
 import Header from './Components.js/Header';
-import HomePage from './Components.js/HomePage/HomePage';
+import HomePage from './Components.js/Pages/HomePage';
+import About from './Components.js/Pages/About';
+import Contact from './Components.js/Pages/Contact';
+import Locations from './Components.js/Pages/Locations';
 import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   const [hamburger, sethamburger] = useState(false);
-  return (
+  return (<>
   <div className='container'>
     <div className='row'>
       <Header hamburger={hamburger} sethamburger={sethamburger} />
     </div>
-    <HomePage hamburger={hamburger} />
+    <Routes>
+      <Route path="/" element={ <HomePage hamburger={hamburger}/> } />
+      <Route path="about" element={ <About/> } />
+      <Route path="contact" element={ <Contact/> } />
+      <Route path="locations" element={ <Locations /> } />
+    </Routes>
+    <Footer />
   </div>
-  );
+
+  </>);
 }
 
 export default App;

@@ -4,6 +4,7 @@ import youtube from "../assets/shared/desktop/icon-youtube.svg"
 import twitter from "../assets/shared/desktop/icon-twitter.svg"
 import pintrest from "../assets/shared/desktop/icon-pinterest.svg"
 import instagram from "../assets/shared/desktop/icon-instagram.svg"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
@@ -17,10 +18,10 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-textfield">
-                        <img src={logo} alt="logo" />
-                        <h2 id="h2-1">OUR COMPANY</h2>
-                        <h2 id="h2-2">LOCATIONS</h2>
-                        <h2 id="h2-3">CONTACT</h2>
+                        <Link to="/"><img src={logo} alt="logo" /></Link>
+                        <Link to="about"><h2 id="h2-1">OUR COMPANY</h2></Link>
+                        <Link to="locations"><h2 id="h2-2">LOCATIONS</h2></Link>
+                        <Link to="contact"><h2 id="h2-3">CONTACT</h2></Link>
                         <div className="footertext">
                             <p>Designo Central Office</p>
                             <p>3886 Wellington Street</p>
