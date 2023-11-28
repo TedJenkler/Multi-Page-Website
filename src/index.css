@@ -214,7 +214,7 @@ html, body {
   color: white;
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 19.06em 0 0 0;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -264,5 +264,58 @@ html, body {
 .socialicon-area {
   width: 12.2em;
   height: 1.6em;
-  margin: 2.6em 4.73em 64px 4.8em;
+  margin: 2.6em 4.73em 4.26em 4.8em;
+  display: flex;
 }
+
+.socialicon {
+  margin-right: 1.06em;
+  height: 1.6em;
+  width: 1.6em;
+}
+
+/* Hero Footer */
+
+.hero-footer {
+  width: 21.8em;
+  height: 25.26em;
+  border-radius: 1em;
+  background-color: #E7816B;
+  position: absolute;
+  top: 251.86em;
+  margin: 0 1.6em 0 1.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-footertextfield {
+  width: 279px;
+  height: 251px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px 24px 64px 24px;
+}
+
+.hero-footertextfield > h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.hero-footertextfield > p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.hero-footertextfield > button {
+  font-size: 15px;
+  width: 152px;
+  height: 56px;
+  border-radius: 15px;
+  background-color: white;
+  color: 333136;
+  margin-top: 32px;
+}
+
