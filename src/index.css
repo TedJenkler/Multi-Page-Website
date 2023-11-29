@@ -611,8 +611,7 @@ a {
   margin-bottom: 40px;
 }
 
-.leaflet-map {
-  width: 100%;
+.leaflet-container {
   height: 320px;
 }
 
