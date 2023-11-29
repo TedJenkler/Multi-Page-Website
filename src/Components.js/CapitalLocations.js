@@ -6,7 +6,7 @@ const CapitalLocations = () => {
     return (
         <>
             <div className="capitallocation-area">
-                <img src={canada} alt="canada" />
+                <div id="canada"><img id="canadarotateback" src={canada} alt="canada" /></div>
                 <h2>CANADA</h2>
                 <button className="btn">SEE LOCATION</button>
                 <img src={australia} alt="australia" />

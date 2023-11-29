@@ -2,16 +2,16 @@ import phoneframe from "../../assets/home/desktop/image-hero-phone.png"
 import passionate from "../../assets/home/desktop/illustration-passionate.svg"
 import resourceful from "../../assets/home/desktop/illustration-resourceful.svg"
 import friendly from "../../assets/home/desktop/illustration-friendly.svg"
+import { Link } from "react-router-dom"
 import PageLinkButton from "../PageLinkButton"
-
-const HomePage = ({ hamburger }) => {
+const HomePage = ({hamburger}) => {
     return (
         <div className={hamburger === false ? "row" : "row blurry"}>
             <div className="hero">
                 <div className="textfield-hero">
                     <h1>Award-winning custom designs and digital branding solutions</h1>
                     <p>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
-                    <button type="button" className="btn hero-btn">Learn more</button>
+                    <Link to="/about" className="btn hero-btn">Learn more</Link>
                 </div>
                 <div className="phoneimg-area">
                     <img className="phoneimg-hero" src={phoneframe} alt="phoneframe" />
