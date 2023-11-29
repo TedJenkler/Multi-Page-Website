@@ -2,6 +2,7 @@ import phoneframe from "../../assets/home/desktop/image-hero-phone.png"
 import passionate from "../../assets/home/desktop/illustration-passionate.svg"
 import resourceful from "../../assets/home/desktop/illustration-resourceful.svg"
 import friendly from "../../assets/home/desktop/illustration-friendly.svg"
+import PageLinkButton from "../PageLinkButton"
 
 const HomePage = ({ hamburger }) => {
     return (
@@ -18,18 +19,9 @@ const HomePage = ({ hamburger }) => {
             </div>
             <div className="row">
                 <div className="project-btn-area">
-                    <button type="button" className="btn project-btn project-btn-first">
-                        <h1>WEB DESIGN</h1>
-                        <h2>VIEW PROJECTS</h2>
-                    </button>
-                    <button type="button" className="btn project-btn project-btn-second">
-                        <h1>App Design</h1>
-                        <h2>VIEW PROJECTS</h2>
-                    </button>
-                    <button type="button" className="btn project-btn project-btn-third">
-                        <h1>Graphic Design</h1>
-                        <h2>VIEW PROJECTS</h2>
-                    </button>
+                    <PageLinkButton page="webdesign" h1="Web Design" c="btn project-btn project-btn-first" />
+                    <PageLinkButton page="appdesign" h1="App Design" c="btn project-btn project-btn-second" />
+                    <PageLinkButton page="graphicdesign" h1="Graphic Design" c="btn project-btn project-btn-third" />
                 </div>
             </div>
             <div className="row">

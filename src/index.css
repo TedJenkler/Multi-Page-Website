@@ -18,6 +18,7 @@ html, body {
   min-height: 100%;
   margin: 0;
   padding: 0;
+  justify-content: center;
   z-index: 1000;
 }
 
@@ -633,3 +634,60 @@ a {
 .leaflet-textarea > h3 {
   margin: 24px 0 10px 0;
 }
+
+/* Design page */
+
+.hero-design {
+  width: 100%;
+  height: 320px;
+}
+
+
+.hero-design > h1 {
+  font-size: 32px;
+  text-align: center;
+  margin: 105px 0 24px 0;
+}
+
+
+.hero-design > p {
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+}
+
+/* content */
+
+.content {
+  width: 327px;
+  height: 3068px;
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-item {
+ background-color: #FDF3F0;
+ border-radius: 15px;
+ margin-bottom: 40px;
+}
+
+.content-item > img {
+  width: 100%;
+  height: 320px;
+  border-radius: 15px 15px 0 0;
+ }
+
+ .content-item > h2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 32px 0 16px 0;
+ }
+
+ .content-item > p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 32px;
+ }
