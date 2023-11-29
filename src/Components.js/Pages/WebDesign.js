@@ -21,8 +21,8 @@ const WebDesign = ({ hamburger }) => {
                 <ContentItem img={camp} h2="CAMP" p="Get expert training in coding, data, design, and digital marketing"/>
             </div>
             <div>
-                <PageLinkButton page="appdesign" h1="App Design" c="btn project-btn project-btn-first" />
-                <PageLinkButton page="graphicdesign" h1="Graphic Design" c="btn project-btn project-btn-third" />
+                <PageLinkButton page="/app" h1="APP DESIGN" c="btn project-btn project-btn-first" />
+                <PageLinkButton page="/graphicdesign" h1="GRAPHIC DESIGN" c="btn project-btn project-btn-third" />
             </div>
         </div>
     )

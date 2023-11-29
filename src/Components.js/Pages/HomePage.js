@@ -20,8 +20,8 @@ const HomePage = ({ hamburger }) => {
             <div className="row">
                 <div className="project-btn-area">
                     <PageLinkButton page="webdesign" h1="Web Design" c="btn project-btn project-btn-first" />
-                    <PageLinkButton page="appdesign" h1="App Design" c="btn project-btn project-btn-second" />
-                    <PageLinkButton page="graphicdesign" h1="Graphic Design" c="btn project-btn project-btn-third" />
+                    <PageLinkButton page="app" h1="App Design" c="btn project-btn project-btn-second" />
+                    <PageLinkButton page="graphicdesign" h1="GRAPHIC DESIGN" c="btn project-btn project-btn-third" />
                 </div>
             </div>
             <div className="row">

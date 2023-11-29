@@ -8,6 +8,8 @@ import Locations from './Components.js/Pages/Locations';
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import WebDesign from './Components.js/Pages/WebDesign';
+import GraphicDesign from './Components.js/Pages/GrapicDesign';
+import AppDesign from './Components.js/Pages/AppDesign';
 
 function App() {
   const [hamburger, sethamburger] = useState(false);
@@ -22,6 +24,8 @@ function App() {
       <Route path="contact" element={ <Contact hamburger={hamburger}/> } />
       <Route path="locations" element={ <Locations hamburger={hamburger}/> } />
       <Route path="webdesign" element={ <WebDesign hamburger={hamburger} />} />
+      <Route path="app" element={ <AppDesign hamburger={hamburger} />} />
+      <Route path="graphicdesign" element={ <GraphicDesign hamburger={hamburger} />} />
     </Routes>
     <Footer />
   </div>
