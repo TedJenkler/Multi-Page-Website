@@ -14,11 +14,12 @@ const Footer = () => {
                         <div className="hero-footertextfield">
                             <h1>Let’s talk about your project</h1>
                             <p>Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
-                            <button type="button" className="btn">GET IN TOUCH</button>
+                            <Link to="/contact">GET IN TOUCH</Link>
                         </div>
                     </div>
                     <div className="footer-textfield">
                         <Link to="/"><img src={logo} alt="logo" /></Link>
+                        <div className="stylefooter"></div>
                         <Link to="about"><h2 id="h2-1">OUR COMPANY</h2></Link>
                         <Link to="locations"><h2 id="h2-2">LOCATIONS</h2></Link>
                         <Link to="contact"><h2 id="h2-3">CONTACT</h2></Link>

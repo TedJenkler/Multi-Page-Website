@@ -289,10 +289,17 @@ a {
   align-items: center;
 }
 
+.stylefooter {
+  width: 100%;
+  border-bottom: 1px solid #979797;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
 .footer-textfield {
   height: 33.2em;
   width: 21.8em;
-  margin: 16.86em 0 0 0;
+  margin: 253px 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -306,7 +313,7 @@ a {
 
 #h2-1 {
   font-size: 0.93;
-  margin: 4.3em 0 0 0;
+  margin: 0 0 0 0;
 }
 
 #h2-2 {
@@ -370,14 +377,16 @@ a {
   font-size: 32px;
   text-align: center;
   margin-bottom: 6px;
+  line-height: 32px;
 }
 
 .hero-footertextfield > p {
   font-size: 15px;
   text-align: center;
+  line-height:  25px;
 }
 
-.hero-footertextfield > button {
+.hero-footertextfield > a {
   font-size: 15px;
   width: 152px;
   height: 56px;
@@ -385,6 +394,12 @@ a {
   background-color: white;
   color: 333136;
   margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 /* About Page */
