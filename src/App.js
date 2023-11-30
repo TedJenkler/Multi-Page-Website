@@ -20,6 +20,7 @@ function App() {
     </div>
     <Routes>
       <Route path="/" element={ <HomePage hamburger={hamburger}/> } />
+      <Route path="/Multi-Page-Website/" element={ <HomePage hamburger={hamburger}/> } />
       <Route path="about" element={ <About hamburger={hamburger}/> } />
       <Route path="contact" element={ <Contact hamburger={hamburger}/> } />
       <Route path="locations" element={ <Locations hamburger={hamburger}/> } />

@@ -277,7 +277,7 @@ a {
 /* Footer */
 
 .footer {
-  width: 100%;
+  max-width: 100%;
   min-height: 1005px;
   background-color: #1D1C1E;
   color: white;
@@ -462,7 +462,7 @@ a {
 
 .about-item2area > h1 {
   font-size: 32px;
-  margin: 84px 0em 24px 0em;
+  margin: 30px 0em 24px 0em;
   color: #E7816B;
 }
 
