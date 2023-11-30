@@ -9,6 +9,13 @@ const Header = ({ hamburger, sethamburger }) => {
             <div className="logo-area">
                 <Link to="/"><img className="logo" src={Logo} alt="logo" /></Link>
             </div>
+            <div className="menu-area-responsive">
+                <ul>
+                    <li><Link to="About">OUR COMPANY</Link></li>
+                    <li><Link to="locations">LOCATIONS</Link></li>
+                    <li><Link to="contact">CONTACT</Link></li>
+                </ul>
+            </div>
             <div className="menu-area">
                {hamburger === false ? <img onClick={(e) => {sethamburger(true)}} className="hamburger-menu" src={hamburgerimg} alt="hamburger" /> : <img onClick={(e) => {sethamburger(false)}} className="hamburger-menu" src={closehamburger} alt="closehamburger" /> }
             </div>

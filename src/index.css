@@ -782,66 +782,45 @@ input:focus {
   }
 
   .logo-area {
-    width: 75%;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 1.6em;
-  }
-
-  .logo {
-    height: 1.8em;
+    width: 25%;
+    padding: 0;
   }
 
   .menu-area {
-    width: 25%;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 1.6em;
+    position: absolute;
+    visibility: hidden;
   }
 
   .menu {
     position: absolute;
-    width: 100%;
-    height: 235px;
-    top: 95px;
-    margin: 0;
-    padding: 0;
-    background-color: #1D1C1E;
-    color: white;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    z-index: 10000;
-  }
-
-  .menu > ul {
-    text-decoration: none;
-    margin: 48px 24px 48px 24px;
-    padding: 0;
-  }
-
-  .menu > ul > li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-size: 24px;
-  }
-
-  #hamburger-menu-item2 {
-    margin: 32px 0 32px 0;
-  }
-
-  .menu-hidden {
     visibility: hidden;
   }
 
-  .hamburger {
-    height: 1.8em;
+  .menu-area-responsive {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    margin: 0;
   }
 
-  a {
+  .menu-area-responsive > ul {
     text-decoration: none;
-    color: white;
+    width: 100%;
+    padding: 0;
+    margin: 0 40px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-area-responsive > ul > li {
+    list-style: none;
+  }
+
+  .menu-area-responsive > ul > li > a {
+    color: black;
   }
 
   /* Hero */
