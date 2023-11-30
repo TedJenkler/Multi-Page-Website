@@ -52,7 +52,7 @@ html, body {
 
 .menu {
   position: absolute;
-  width: 375px;
+  width: 100%;
   height: 235px;
   top: 95px;
   margin: 0;
@@ -136,6 +136,8 @@ a {
   height: 3.73em;
   color: #333136;
   margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  padding: 1em;
   background-color: #FFFFFF;
   z-index: 100000000;
 }
@@ -400,6 +402,7 @@ a {
   color: black;
   letter-spacing: 1px;
   font-weight: 500;
+  padding: 1em;
 }
 
 /* About Page */
@@ -468,6 +471,7 @@ a {
   font-size: 15px;
   margin: 0 24px 0 24px;
   line-height: 25px;
+  padding-bottom: 1em;
 
 }
 
@@ -486,10 +490,12 @@ a {
   background-image: url(./assets/shared/desktop/bg-pattern-small-circle.svg);
   transform: rotate(90deg);
   background-repeat: no-repeat;
+  margin: auto;
 }
 
 #canadarotateback {
   transform: rotate(-90deg);
+  margin: auto;
 }
 
 .capitallocation-area > img, .capitallocation-area > div > img {
