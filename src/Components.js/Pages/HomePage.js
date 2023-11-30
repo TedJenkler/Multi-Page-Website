@@ -27,25 +27,31 @@ const HomePage = ({hamburger}) => {
             <div className="row">
                 <div className="keyword-area">
                     <div className="passionate-card">
-                        <div>
+                        <div className="keyimg">
                             <img src={passionate} alt="passionate" />
                         </div>
+                        <div className="responsive-keywords">
                         <h2>Passionate</h2>
                         <p>Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions.</p>
+                        </div>
                     </div>
                     <div className="resourceful-card">
-                        <div>
+                        <div className="keyimg">
                             <img src={resourceful} alt="resourceful" />
                         </div>
+                        <div className="responsive-keywords">
                         <h2>Resourceful</h2>
                         <p>Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs.</p>
+                        </div>
                     </div>
                     <div className="friendly-card">
-                        <div>
+                        <div className="keyimg">
                             <img src={friendly} alt="friendly" />
                         </div>
+                        <div className="responsive-keywords">
                         <h2>Friendly</h2>
                         <p>We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide.</p>
+                        </div>
                     </div>
                 </div>
             </div>
