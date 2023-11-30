@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Multi-Page-Website/static/css/main.0decb3b9.css",
+    "main.css": "/Multi-Page-Website/static/css/main.2874b491.css",
     "main.js": "/Multi-Page-Website/static/js/main.cb62014e.js",
     "static/js/787.83e07913.chunk.js": "/Multi-Page-Website/static/js/787.83e07913.chunk.js",
     "static/media/image-photon.jpg": "/Multi-Page-Website/static/media/image-photon.02f662d755840ae8aad5.jpg",
@@ -37,12 +37,12 @@
     "static/media/bg-pattern-small-circle.svg": "/Multi-Page-Website/static/media/bg-pattern-small-circle.6998c69d139ac33cf6f7.svg",
     "static/media/icon-close.svg": "/Multi-Page-Website/static/media/icon-close.010e2d539cf842b96ceecdf4f54cb482.svg",
     "static/media/icon-hamburger.svg": "/Multi-Page-Website/static/media/icon-hamburger.a39ae0d1f45acff97a9650b13149528e.svg",
-    "main.0decb3b9.css.map": "/Multi-Page-Website/static/css/main.0decb3b9.css.map",
+    "main.2874b491.css.map": "/Multi-Page-Website/static/css/main.2874b491.css.map",
     "main.cb62014e.js.map": "/Multi-Page-Website/static/js/main.cb62014e.js.map",
     "787.83e07913.chunk.js.map": "/Multi-Page-Website/static/js/787.83e07913.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0decb3b9.css",
+    "static/css/main.2874b491.css",
     "static/js/main.cb62014e.js"
   ]
 }
