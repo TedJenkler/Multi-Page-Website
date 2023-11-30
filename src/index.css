@@ -296,6 +296,12 @@ a {
   align-items: center;
 }
 
+.responsive-footer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .stylefooter {
   width: 100%;
   border-bottom: 1px solid #979797;
@@ -312,7 +318,14 @@ a {
   align-items: center;
 }
 
-.footer-textfield > a > img {
+.responsive-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-textfield > div > a > img {
   height: 1.8em;
   width: 13.46em;
   margin: 0 4.13 0 4.2em;
@@ -783,6 +796,7 @@ input:focus {
 
   .logo-area {
     width: 25%;
+    margin-right: 79px;
     padding: 0;
   }
 
@@ -894,7 +908,7 @@ input:focus {
   .keyword-area {
     width: 670px;
     height: 690px;
-    margin: 120px auto 1.7em auto;
+    margin: 120px auto 67px auto;
     display: flex;
     flex-direction: column;
   }
@@ -939,140 +953,123 @@ input:focus {
   }
 
   /* Footer */
-  
+
   .footer {
     max-width: 100%;
-    min-height: 1005px;
-    background-color: #1D1C1E;
-    color: white;
-    display: flex;
-    flex-direction: column;
+    min-height: 687px;
     margin: 19.06em 0 0 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
   }
-  
+
   .stylefooter {
+    position: absolute;
+    visibility: hidden;
     width: 100%;
     border-bottom: 1px solid #979797;
     margin-top: 32px;
     margin-bottom: 32px;
   }
-  
+
+  .responsive-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
   .footer-textfield {
-    height: 33.2em;
-    width: 21.8em;
-    margin: 253px 0 0 0;
+    height: 177px;
+    width: 690px;
+    margin: 253px auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
-  .footer-textfield > a > img {
-    height: 1.8em;
-    width: 13.46em;
-    margin: 0 4.13 0 4.2em;
+
+  .footer-textfield > div > a > img {
+    height: 27px;
+    width: 202px;
+    margin: 0 118px 0 0;
   }
-  
+
   #h2-1 {
-    font-size: 0.93;
-    margin: 0 0 0 0;
+    font-size: 14px;
+    margin-right: 42px;
   }
-  
+
   #h2-2 {
-    font-size: 0.93;
-    margin: 2.13em 0 0 0;
+    font-size: 14px;
+    margin-right: 42px;
+    margin: 0 42px 0 0;
   }
-  
+
   #h2-3 {
-    font-size: 0.93;
-    margin: 2.13em 0 0 0;
+    font-size: 14px;
+    margin: 0;
   }
-  
+
+  .responsive-footer2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 72px;
+    margin-left: 0;
+    border-top: 1px solid #979797;
+    padding-top: 33px;
+  }
+
   .footertext {
-    width: 21.8em;
-    height: 5.2em;
+    width: 223px;
+    height: 78px;
     display: flex;
     flex-direction: column;
-    font-size: 1.06em;
-    margin-top: 2.6em;
-    text-align: center;
+    font-size: 16px;
+    margin: 0 39px 0 0;
+    text-align: start;
+    line-height: 26px;
   }
-  
+
   .socialicon-area {
-    width: 12.2em;
-    height: 1.6em;
-    margin: 2.6em 4.73em 4.26em 4.8em;
+    margin: 2em 0 0 50px;
     display: flex;
   }
-  
-  .socialicon {
-    margin-right: 1.06em;
-    height: 1.6em;
-    width: 1.6em;
-  }
-  
   /* Hero Footer */
-  
+
   .hero-footer {
-    width: 21.8em;
+    width: 690px;
     height: 25.26em;
-    border-radius: 1em;
-    background-color: #E7816B;
     position: absolute;
-    top: -190px;
-    margin: 0 1.6em 0 1.6em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: -264px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./assets/shared/tablet/bg-pattern-design-pages-intro-tablet.svg);
+    background-position: center;
   }
-  
+
   .hero-footertextfield {
-    width: 279px;
+    width: 573px;
     height: 251px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 64px 24px 64px 24px;
+    margin: 64px auto 64px auto;
   }
-  
+
   .hero-footertextfield > h1 {
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
-    margin-bottom: 6px;
-    line-height: 32px;
+    margin-bottom: 50px;
+    line-height: 40px;
+    width: 279px;
   }
-  
+
   .hero-footertextfield > p {
     font-size: 15px;
     text-align: center;
     line-height:  25px;
   }
-  
-  .hero-footertextfield > a {
-    font-size: 15px;
-    width: 152px;
-    height: 56px;
-    border-radius: 15px;
-    background-color: white;
-    color: 333136;
-    margin-top: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    letter-spacing: 1px;
-    font-weight: 500;
-    padding: 1em;
-  }
-  
+
   /* About Page */
-  
+
   /* Hero  */
-  
+
   #hero-about {
     height: 715px;
     background-image: url(./assets//home/desktop/bg-pattern-hero-home.svg);

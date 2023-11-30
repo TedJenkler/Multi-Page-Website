@@ -18,11 +18,14 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-textfield">
-                        <Link to="/"><img src={logo} alt="logo" /></Link>
-                        <div className="stylefooter"></div>
-                        <Link to="about"><h2 id="h2-1">OUR COMPANY</h2></Link>
-                        <Link to="locations"><h2 id="h2-2">LOCATIONS</h2></Link>
-                        <Link to="contact"><h2 id="h2-3">CONTACT</h2></Link>
+                        <div className="responsive-footer">
+                            <Link to="/"><img src={logo} alt="logo" /></Link>
+                            <div className="stylefooter"></div>
+                            <Link to="about"><h2 id="h2-1">OUR COMPANY</h2></Link>
+                            <Link to="locations"><h2 id="h2-2">LOCATIONS</h2></Link>
+                            <Link to="contact"><h2 id="h2-3">CONTACT</h2></Link>
+                        </div>
+                        <div className="responsive-footer2">
                         <div className="footertext">
                             <p>Designo Central Office</p>
                             <p>3886 Wellington Street</p>
@@ -40,6 +43,7 @@ const Footer = () => {
                             <img className="socialicon" src={pintrest} alt="pintrest" />
                             <img className="socialicon" src={instagram} alt="instagram" />
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
