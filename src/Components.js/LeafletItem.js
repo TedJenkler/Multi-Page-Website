@@ -14,13 +14,17 @@ const LeafletItem = ({ country, address1, address2, address3, p, m, cords }) => 
                 </MapContainer>
                 </div>
                 <div className="leaflet-textarea">
-                    <h2>{country}</h2>
-                    <p>{address1}</p>
-                    <p>{address2}</p>
-                    <p>{address3}</p>
-                    <h3>Contact</h3>
-                    <p>{p}</p>
-                    <p>{m}</p>
+                    <div className='responsive-leaflettextarea1'>
+                        <h2>{country}</h2>
+                        <p>{address1}</p>
+                        <p>{address2}</p>
+                        <p>{address3}</p>
+                    </div>
+                    <div className='responsive-leaflettextarea2'>
+                        <h3>Contact</h3>
+                        <p>{p}</p>
+                        <p>{m}</p>
+                    </div>
                 </div>
             </div>
     )

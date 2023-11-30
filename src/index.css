@@ -704,16 +704,17 @@ input:focus {
   margin-bottom: 40px;
 }
 
-.leaflet-textarea > h2 {
+.leaflet-textarea > div > h2 {
   padding: 80px 0 24px 0;
+  color: #E7816B;
 }
 
-.leaflet-textarea > p {
+.leaflet-textarea > div > p {
   margin: 0;
   line-height: 25px;
 }
 
-.leaflet-textarea > h3 {
+.leaflet-textarea > div > h3 {
   margin: 24px 0 10px 0;
 }
 
@@ -1217,43 +1218,61 @@ input:focus {
   /* CountryleafletArea */
 
   .leafletarea {
-    width: 100%;
-    padding: 0;
+    width: 689px;
+    height: 682px;
+    background-color: white;
+    margin-bottom: 120px;
   }
-  
-  .leaflet-map {
-    margin: 0;
-    padding: 0;
-  }
-  
+
   .leaflet-container {
-    height: 320px;
+    height: 326px;
+    border-radius: 15px;
   }
-  
+
   .leaflet-textarea {
-    width: 100%;
-    height: 394px;
-    text-align: center;
-    background-image: url(./assets/shared/desktop/bg-pattern-three-circles.svg);
+    height: 326px;
+    background-image: url(./assets/shared/desktop/bg-pattern-two-circles.svg);
     background-size: 584px;
-    background-position: top top;
-    background-color: #FDF3F0;
-    margin-bottom: 40px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 15px;
   }
-  
-  .leaflet-textarea > h2 {
-    padding: 80px 0 24px 0;
+
+  .responsive-leaflettextarea1 {
+    margin: 88px 0 24px 75px;
+    padding: 0;
   }
-  
-  .leaflet-textarea > p {
+
+  .responsive-leaflettextarea2 {
+    margin: 160px 0 0 107px;
+    padding: 0;
+  }
+
+  .leaflet-textarea > div > h2 {
     margin: 0;
-    line-height: 25px;
+    padding: 0;
+    font-size: 40px;
+    text-align: start;
+    margin-bottom: 24px;
   }
-  
-  .leaflet-textarea > h3 {
-    margin: 24px 0 10px 0;
+
+  .leaflet-textarea > div > p {
+    text-align: start;
+    font-size: 16px;
+    line-height: 26px;
   }
-  
+
+  .leaflet-textarea > div > h3 {
+    font-size: 16px;
+    margin: 0;
+    text-align: start;
+  }
+
   /* Design page */
   
   .hero-design {
