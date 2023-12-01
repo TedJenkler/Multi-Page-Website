@@ -16,7 +16,7 @@ const GraphicDesign = ( {hamburger} ) => {
                 <ContentItem img={eyecam} h2="BOXED WATER" p="A simple packaging concept made for Boxed Water"/>
                 <ContentItem img={faceit} h2="SCIENCE!" p="A poster made in collaboration with the Federal Art Project"/>
             </div>
-            <div>
+            <div className="center-project">
                 <PageLinkButton page="/webdesign" h1="WEB DESIGN" c="btn project-btn project-btn-first" />
                 <PageLinkButton page="/app" h1="APP DESIGN" c="btn project-btn project-btn-third" />
             </div>

@@ -20,7 +20,7 @@ const WebDesign = ({ hamburger }) => {
                 <ContentItem img={blogr} h2="BLOGR" p="Blogr is a platform for creating an online blog or publication"/>
                 <ContentItem img={camp} h2="CAMP" p="Get expert training in coding, data, design, and digital marketing"/>
             </div>
-            <div>
+            <div className="center-project">
                 <PageLinkButton page="/app" h1="APP DESIGN" c="btn project-btn project-btn-first" />
                 <PageLinkButton page="/graphicdesign" h1="GRAPHIC DESIGN" c="btn project-btn project-btn-third" />
             </div>

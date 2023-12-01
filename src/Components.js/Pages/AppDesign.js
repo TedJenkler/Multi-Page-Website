@@ -18,7 +18,7 @@ const AppDesign = ( {hamburger} ) => {
                 <ContentItem img={todo} h2="TODO" p="A todo app that features cloud sync with light and dark mode"/>
                 <ContentItem img={loopstudios} h2="LOOPSTUDIOS" p="A VR experience app made for Loopstudios"/>
             </div>
-            <div>
+            <div className="center-project">
                 <PageLinkButton page="/webdesign" h1="WEB DESIGN" c="btn project-btn project-btn-first" />
                 <PageLinkButton page="/graphicdesign" h1="GRAPHIC DESIGN" c="btn project-btn project-btn-third" />
             </div>

@@ -98,6 +98,17 @@ a {
   color: white;
 }
 
+.menu-area-responsive {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  margin: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
 /* Hero */
 
 .hero {
@@ -818,6 +829,8 @@ input:focus {
     flex-direction: row;
     color: black;
     margin: 0;
+    position: relative;
+    visibility: visible;
   }
 
   .menu-area-responsive > ul {
@@ -879,6 +892,12 @@ input:focus {
 
   /* project buttons */
 
+  .center-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .project-btn > h1 {
     font-size: 40px;
   }
@@ -909,7 +928,7 @@ input:focus {
   .keyword-area {
     width: 670px;
     height: 690px;
-    margin: 120px auto 67px auto;
+    margin: 120px auto 76px auto;
     display: flex;
     flex-direction: column;
   }
@@ -1082,6 +1101,7 @@ input:focus {
 
   #hero-about > img {
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
   }
 
   #hero-about > h1 {
@@ -1111,6 +1131,7 @@ input:focus {
     width: 100%;
     height: 320px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
   }
 
   .about-item2area > h1 {
