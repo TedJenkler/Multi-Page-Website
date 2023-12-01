@@ -410,14 +410,14 @@ a {
   margin: 64px 24px 64px 24px;
 }
 
-.hero-footertextfield > h1 {
+.hero-footertextfield > div > h1 {
   font-size: 32px;
   text-align: center;
   margin-bottom: 6px;
   line-height: 32px;
 }
 
-.hero-footertextfield > p {
+.hero-footertextfield > div > p {
   font-size: 15px;
   text-align: center;
   line-height:  25px;
@@ -880,12 +880,12 @@ input:focus {
     align-items: center;
   }
 
-  .textfield-hero > h1 {
+  .textfield-hero > div > h1 {
     font-size: 48px;
     line-height: 48px;
   }
 
-  .textfield-hero > p {
+  .textfield-hero > div > p {
     text-align: center;
     font-size: 1.06em;
     line-height: 26px;
@@ -1524,9 +1524,8 @@ input:focus {
   /* Footer */
 
   .footer {
-    max-width: 100%;
-    min-height: 687px;
-    margin: 19.06em 0 0 0;
+    height: 1061px;
+    margin: 0;
   }
 
   .stylefooter {
@@ -1546,93 +1545,55 @@ input:focus {
   }
 
   .footer-textfield {
-    height: 177px;
-    width: 690px;
+    width: 1111px;
     margin: 253px auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .footer-textfield > div > a > img {
-    height: 27px;
-    width: 202px;
-    margin: 0 118px 0 0;
-  }
-
-  #h2-1 {
-    font-size: 14px;
-    margin-right: 42px;
-  }
-
-  #h2-2 {
-    font-size: 14px;
-    margin-right: 42px;
-    margin: 0 42px 0 0;
-  }
-
-  #h2-3 {
-    font-size: 14px;
-    margin: 0;
-  }
-
   .responsive-footer2 {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    margin-top: 72px;
-    margin-left: 0;
-    border-top: 1px solid #979797;
-    padding-top: 33px;
+    justify-content: space-between;
+    align-items: flex-end;
   }
 
-  .footertext {
-    width: 223px;
-    height: 78px;
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    margin: 0 39px 0 0;
-    text-align: start;
-    line-height: 26px;
-  }
-
-  .socialicon-area {
-    margin: 2em 0 0 50px;
-    display: flex;
-  }
   /* Hero Footer */
 
   .hero-footer {
-    width: 690px;
-    height: 25.26em;
-    position: absolute;
-    top: -264px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1111px;
+    height: 292px;
+    top: -220px;
+    margin: 0;
     background-image: url(./assets/shared/tablet/bg-pattern-design-pages-intro-tablet.svg);
     background-position: center;
   }
 
+  .responsive-herofooter {
+    margin: 72px 0 72px 95px;
+    width: 459px;
+  }
+
   .hero-footertextfield {
-    width: 573px;
-    height: 251px;
-    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
     margin: 64px auto 64px auto;
+    justify-content: space-between;
   }
 
-  .hero-footertextfield > h1 {
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 50px;
-    line-height: 40px;
-    width: 279px;
+  .hero-footertextfield > div > h1 {
+    text-align: start;
+    width: 459px;
   }
 
-  .hero-footertextfield > p {
-    font-size: 15px;
-    text-align: center;
-    line-height:  25px;
+  .hero-footertextfield > div > p {
+    font-size: 16px;
+    text-align: start;
+    line-height: 26px;
+  }
+
+  .hero-footertextfield > a {
+    margin: 118px 96px 118px;
   }
 
   /* About Page */

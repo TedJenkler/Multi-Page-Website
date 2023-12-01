@@ -12,8 +12,10 @@ const Footer = () => {
                 <div className="footer">
                     <div className="hero-footer">
                         <div className="hero-footertextfield">
+                            <div className="responsive-herofooter">
                             <h1>Let’s talk about your project</h1>
                             <p>Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
+                            </div>
                             <Link to="/contact">GET IN TOUCH</Link>
                         </div>
                     </div>
