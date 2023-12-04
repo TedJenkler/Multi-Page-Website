@@ -1858,19 +1858,44 @@ input:focus {
   /* CountryleafletArea */
 
   .leafletarea {
-    width: 689px;
-    height: 682px;
-    background-color: white;
-    margin-bottom: 120px;
+    width: 1111px;
+    height: 326px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: flex-end;
   }
 
-  .leaflet-container {
-    height: 326px;
+  #right {
+    flex-direction: row-reverse;
     border-radius: 15px;
   }
 
+  #left {
+    flex-direction: row;
+    border-radius: 15px 0 0 15px;
+  }
+
+  #margin-right {
+    margin-right: 30px;
+  }
+
+  #margin-left {
+    margin-left: 30px;
+  }
+
+  .leaflet-map {
+    height: 100%;
+    width: 350px;
+  }
+
+  .leaflet-container {
+    border-radius: 15px;
+    height: 100%;
+    width: 350px;
+  }
+
   .leaflet-textarea {
-    height: 326px;
+    height: 100%;
     background-image: url(./assets/shared/desktop/bg-pattern-two-circles.svg);
     background-size: 584px;
     background-position: bottom left;

@@ -2,18 +2,18 @@ import 'leaflet/dist/leaflet.css';
 import { useEffect } from 'react'
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 
-const LeafletItem = ({ country, address1, address2, address3, p, m, cords }) => {
+const LeafletItem = ({ margin, id, country, address1, address2, address3, p, m, cords }) => {
     useEffect(() => {
 
     },[])
     return (
-            <div className="leafletarea">
+            <div id={id} className="leafletarea">
                 <div className="leaflet-map">
-                <MapContainer center={cords} zoom={13} scrollWheelZoom={false}>
+                <MapContainer id={id} center={cords} zoom={13} scrollWheelZoom={false}>
                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                 </MapContainer>
                 </div>
-                <div className="leaflet-textarea">
+                <div id={margin} className="leaflet-textarea">
                     <div className='responsive-leaflettextarea1'>
                         <h2>{country}</h2>
                         <p>{address1}</p>
