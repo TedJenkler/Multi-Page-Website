@@ -1,19 +1,44 @@
+import { useState } from "react";
 import CapitalLocations from "../CapitalLocations"
 
 const Contact = ( {hamburger} ) => {
+    const [name, setName] = useState(null);
+    const [email, setEmail] = useState(null);
+    const [phone, setPhone] = useState(null);
+    const [textArea, setTextArea] = useState(null);
+    const handleclick = (e) => {
+        e.preventDefault();
+        if(name !== "" && name !== null){
+            if(email !== "" && email !== null){
+                if(phone !== "" && phone !== null){
+                    if(textArea !== "" && textArea !== null){
+                        alert("Form Submitted")
+                    }else {
+                        setTextArea("")
+                    }
+                }else {
+                    setPhone("")
+                }
+            }else {
+                setEmail("")
+            }
+        }else {
+            setName("")
+    }
+    }
     return (
         <div className={hamburger === false ? "row" : "row blurry"}>
             <div className="hero hero-contact">
-                <form className="contact" onSubmit={(e) => {e.preventDefault()}}>
+                <form className="contact" onSubmit={handleclick}>
                     <div className="form-textarea">
                         <h1>Contact Us</h1>
                         <p>Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.</p>
                     </div>
                     <div className="inputarea">
-                        <input id="name" type="name" placeholder="Name"></input>
-                        <input id="email" type="email" placeholder="Email Address"></input>
-                        <input id="phone" type="phone" placeholder="Phone"></input>
-                        <input id="textarea" type="textarea" placeholder="Your Message"></input>
+                        <div className="input"><input value={name} onChange={(e) => {setName(e.target.value)}} id="name" type="name" placeholder="Name" ></input><span className={name === "" ? "error" : "correct"}>Can’t be empty</span></div>
+                        <div className="input"><input value={email} onChange={(e) => {setEmail(e.target.value)}} id="email" type="email" placeholder="Email Address"></input><span className={email === "" ? "error" : "correct"}>Can’t be empty</span></div>
+                        <div className="input"><input value={phone} onChange={(e) => {setPhone(e.target.value)}} id="phone" type="phone" placeholder="Phone"></input><span className={phone === "" ? "error" : "correct"}>Can’t be empty</span></div>
+                        <div className="input"><input value={textArea} onChange={(e) => {setTextArea(e.target.value)}} id="textarea" type="textarea" placeholder="Your Message"></input><span className={textArea === "" ? "error" : "correct"}>Can’t be empty</span></div>
                         <button id="submit" type="submit" >SUBMIT</button>
                     </div>
                 </form>

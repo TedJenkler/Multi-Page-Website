@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Jost');
+
 html {
   font-size: 15px;
   width: 100vw;
@@ -6,6 +8,7 @@ html {
   padding: 0;
   overflow-x: hidden;
   box-sizing: border-box;
+  font-family: "Jost", sans-serif;
 }
 
 #root, .container {
@@ -714,6 +717,29 @@ input:focus {
   border: none;
 }
 
+.input {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+span {
+  visibility: hidden;
+  position: absolute;
+}
+
+.error {
+  width: 40%;
+  padding-bottom: 0.5em;
+  visibility: visible;
+  position: relative;
+  border-bottom: 1px solid white;
+}
+
+#correct {
+  border-bottom: 3px solid white;
+}
+
 /* Location Page */
 
 /* CountryleafletArea */
@@ -873,10 +899,6 @@ input:focus {
 .capitallocation-item > button:hover {
   background-color: #FFAD9B;
   color: white;
-}
-
-#name:hover, #email:hover, #phone:hover, #textarea:hover {
-  border-bottom: 3px solid white;
 }
 
 #submit:hover {
