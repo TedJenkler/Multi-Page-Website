@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Multi-Page-Website/static/css/main.f1e79e9c.css",
-    "main.js": "/Multi-Page-Website/static/js/main.220fb4c2.js",
+    "main.css": "/Multi-Page-Website/static/css/main.171fd078.css",
+    "main.js": "/Multi-Page-Website/static/js/main.e6daf142.js",
     "static/js/787.83e07913.chunk.js": "/Multi-Page-Website/static/js/787.83e07913.chunk.js",
     "static/media/image-photon.jpg": "/Multi-Page-Website/static/media/image-photon.02f662d755840ae8aad5.jpg",
     "static/media/image-builder.jpg": "/Multi-Page-Website/static/media/image-builder.dbb2812f61ba3bf5561e.jpg",
@@ -35,18 +35,21 @@
     "static/media/icon-twitter.svg": "/Multi-Page-Website/static/media/icon-twitter.78ae5ffebf2b2dcc8696aed9f69ccf47.svg",
     "static/media/bg-pattern-three-circles.svg": "/Multi-Page-Website/static/media/bg-pattern-three-circles.53a3ac819191bdc4d51c.svg",
     "static/media/bg-pattern-two-circles.svg": "/Multi-Page-Website/static/media/bg-pattern-two-circles.daeea6c523021cc2e039.svg",
+    "static/media/circle-exclamation-solid.svg": "/Multi-Page-Website/static/media/circle-exclamation-solid.2831917a82c4457aad901593047b2429.svg",
+    "static/media/chevron-right-solid (1).svg": "/Multi-Page-Website/static/media/chevron-right-solid (1).734c9ea5a52be9fe3ec1d3973761de28.svg",
     "static/media/icon-facebook.svg": "/Multi-Page-Website/static/media/icon-facebook.f013d57affe6f0577cdc59c02813bab8.svg",
     "static/media/icon-youtube.svg": "/Multi-Page-Website/static/media/icon-youtube.ef414cf2cbdeedef526c8011954fcffe.svg",
     "static/media/bg-pattern-hero-home.svg": "/Multi-Page-Website/static/media/bg-pattern-hero-home.7ee199204417fcc6aaee.svg",
     "static/media/bg-pattern-small-circle.svg": "/Multi-Page-Website/static/media/bg-pattern-small-circle.6998c69d139ac33cf6f7.svg",
+    "static/media/bg-pattern-hero-desktop.svg": "/Multi-Page-Website/static/media/bg-pattern-hero-desktop.fdd40c2d831de2cec06b.svg",
     "static/media/icon-close.svg": "/Multi-Page-Website/static/media/icon-close.010e2d539cf842b96ceecdf4f54cb482.svg",
     "static/media/icon-hamburger.svg": "/Multi-Page-Website/static/media/icon-hamburger.a39ae0d1f45acff97a9650b13149528e.svg",
-    "main.f1e79e9c.css.map": "/Multi-Page-Website/static/css/main.f1e79e9c.css.map",
-    "main.220fb4c2.js.map": "/Multi-Page-Website/static/js/main.220fb4c2.js.map",
+    "main.171fd078.css.map": "/Multi-Page-Website/static/css/main.171fd078.css.map",
+    "main.e6daf142.js.map": "/Multi-Page-Website/static/js/main.e6daf142.js.map",
     "787.83e07913.chunk.js.map": "/Multi-Page-Website/static/js/787.83e07913.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1e79e9c.css",
-    "static/js/main.220fb4c2.js"
+    "static/css/main.171fd078.css",
+    "static/js/main.e6daf142.js"
   ]
 }
