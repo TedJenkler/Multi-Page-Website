@@ -16,7 +16,7 @@ const LeafletItem = ({ margin, id, country, address1, address2, address3, p, m, 
                 <div id={margin} className="leaflet-textarea">
                     <div className='responsive-leaflettextarea1'>
                         <h2>{country}</h2>
-                        <p>{address1}</p>
+                        <p id='bold'>{address1}</p>
                         <p>{address2}</p>
                         <p>{address3}</p>
                     </div>

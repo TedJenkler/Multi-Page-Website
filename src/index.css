@@ -25,7 +25,7 @@ html {
   margin: 0;
   padding: 0;
   justify-content: center;
-  z-index: 1000;
+  z-index: 10001;
 }
 
 /* Header */
@@ -124,6 +124,8 @@ a {
   background-position: 0px 102px;
   margin: 0;
   color: white;
+  z-index: 10000;
+  overflow-y: hidden;
 }
 
 .textfield-hero {
@@ -158,6 +160,9 @@ a {
   padding: 0.75em;
   background-color: #FFFFFF;
   z-index: 100000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .phoneimg-area {
@@ -170,7 +175,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 /* project buttons */
@@ -189,6 +193,17 @@ a {
   align-items: center;
   margin: 0;
   padding: 0;
+}
+
+.arrowh2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#arrow {
+  height: 0.5em;
+  margin-left: 0.5em;
 }
 
 .project-btn > h1 {
@@ -399,6 +414,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(./assets/shared/desktop/bg-pattern-three-circles.svg);
+  background-position: 0px 0px;
 }
 
 .hero-footertextfield {
@@ -565,7 +582,7 @@ a {
 }
 
 
-.capitallocation-area > div > button {
+.capitallocation-area > div > a > button {
   margin-bottom: 48px;
   width: 152px;
   height: 56px;
@@ -729,15 +746,22 @@ span {
 }
 
 .error {
-  width: 40%;
+  width: 50%;
   padding-bottom: 0.5em;
   visibility: visible;
   position: relative;
   border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #correct {
   border-bottom: 3px solid white;
+}
+
+.alerticon {
+  margin-left: 0.25em;
 }
 
 /* Location Page */
@@ -747,6 +771,10 @@ span {
 .leafletarea {
   width: 100%;
   padding: 0;
+}
+
+#bold {
+  font-weight: 700;
 }
 
 .leaflet-map {
@@ -781,6 +809,8 @@ span {
 
 .leaflet-textarea > div > h3 {
   margin: 24px 0 10px 0;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 /* Design page */
@@ -886,7 +916,7 @@ span {
 }
 */
 
-.responsive-content:hover {
+.content-item:hover {
   background-color: #E7816B;
   color: white;
 }
@@ -905,6 +935,26 @@ span {
   background-color: #FFAD9B;
   color: white;
 }
+
+
+/* Designer divs */
+/* Will solve it later z-index and absolute problems
+.DD {
+  width: 1006px;
+  height: 594px;
+  background-color: #979797;
+  position: absolute;
+  opacity: 30%;
+  border-radius: 297px 297px 297px 0;
+  z-index: 10003;
+}
+
+#DD1 {
+  top: 475px;
+  left: 0px;
+}
+
+*/
 
  @media screen and (min-width: 768px) {
 
@@ -1008,6 +1058,8 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
   }
 
   .project-btn > h1 {
@@ -1582,7 +1634,7 @@ span {
   .keyword-area {
     width: 1110px;
     height: 412px;
-    margin: 160px 165px 380px 165px;
+    margin: 160px 165px 120px 165px;
     flex-direction: row;
     padding: 0;
   }
@@ -1751,7 +1803,7 @@ span {
     background-image: url(./assets/shared/desktop/bg-pattern-three-circles.svg);
     background-position: center;
     flex-direction: row;
-    margin-bottom: 160px;
+    margin-bottom: 120px;
     align-items: flex-start;
   }
 
@@ -1783,7 +1835,7 @@ span {
     height: 640px;
     width: 1111px;
     flex-direction: row;
-    margin-bottom: 380px;
+    margin-bottom: 120px;
     align-items: flex-start;
     flex-direction: row-reverse;
   }
@@ -1878,6 +1930,9 @@ span {
     height: 480px;
     width: 1111px;
     margin-bottom: 120px;
+    background-image: url(./assets/contact/desktop/bg-pattern-hero-desktop.svg);
+    background-position: 0px -140px;
+    background-size: 620px;
   }
 
   .contact {
@@ -1943,6 +1998,10 @@ span {
     margin-bottom: 32px;
     display: flex;
     align-items: flex-end;
+  }
+
+  .locations {
+    margin-bottom: 120px;
   }
 
   #right {
