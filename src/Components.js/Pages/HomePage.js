@@ -28,7 +28,7 @@ const HomePage = ({hamburger}) => {
                 </div>
             </div>
             <div className="row">
-                <div className="keyword-area">
+                <div className="keyword-area mb-80">
                     <div className="passionate-card">
                         <div className="keyimg">
                             <img src={passionate} alt="passionate" />
