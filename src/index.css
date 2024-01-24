@@ -140,69 +140,6 @@ a {
   position: absolute;
 }
 
-/* Hero */
-
-.hero {
-  height: 56.2em;
-  display: flex;
-  flex-direction: column;
-  background-color: #E7816B;
-  background-image: url(./assets//home/desktop/bg-pattern-hero-home.svg);
-  background-repeat: no-repeat;
-  background-position: 0px 102px;
-  margin: 0;
-  color: white;
-  overflow-y: hidden;
-}
-
-.textfield-hero {
-  width: 21.8em;
-  height: 20.8em;
-  margin: 4.53em auto 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.textfield-hero > h1 {
-  font-size: 2.13em;
-  text-align: center;
-  line-height: 36px;
-}
-
-.textfield-hero > p {
-  text-align: center;
-  font-size: 1em;
-  margin-top: 0.93em;
-  margin-bottom: 1em;
-  line-height: 25px;
-}
-
-.hero-btn {
-  width: 10.13em;
-  height: 3.73em;
-  color: #333136;
-  margin-top: 0.6em;
-  margin-bottom: 2.6em;
-  padding: 0.75em;
-  background-color: #FFFFFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.phoneimg-area {
-  position: absolute;
-  height: 38.2em;
-  max-width: 100%;
-  top: 39.2em;
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* project buttons */
 
 .desktop-responsive {
@@ -881,45 +818,6 @@ span {
     color: black;
   }
 
-  /* Hero */
-
-  .hero {
-    height: 56.2em;
-    display: flex;
-    flex-direction: column;
-    background-color: #E7816B;
-    background-image: url(./assets//home/desktop/bg-pattern-hero-home.svg);
-    background-repeat: no-repeat;
-    background-position: 170.5px 101.5px;
-    margin: auto;
-    color: white;
-  }
-
-  .textfield-hero {
-    width: 573px;
-    height: 20.8em;
-    margin: 4.53em auto 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .textfield-hero > div > h1 {
-    font-size: 48px;
-    line-height: 48px;
-  }
-
-  .textfield-hero > div > p {
-    text-align: center;
-    font-size: 1.06em;
-    line-height: 26px;
-  }
-
-  .phoneimg-area {
-    width: 100%;
-    margin: 0 auto 0 auto;
-  }
-
   /* project buttons */
 
   .center-project {
@@ -1082,39 +980,6 @@ span {
   .socialicon-area {
     margin: 2em 0 0 50px;
     display: flex;
-  }
-  /* Hero Footer */
-
-  .hero-footer {
-    width: 690px;
-    height: 25.26em;
-    position: absolute;
-    top: -264px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(./assets/shared/tablet/bg-pattern-design-pages-intro-tablet.svg);
-    background-position: center;
-  }
-
-  .hero-footertextfield {
-    width: 573px;
-    height: 251px;
-    display: flex;
-    margin: 64px auto 64px auto;
-  }
-
-  .hero-footertextfield > h1 {
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 50px;
-    line-height: 40px;
-    width: 279px;
-  }
-
-  .hero-footertextfield > p {
-    font-size: 15px;
-    text-align: center;
-    line-height:  25px;
   }
 
   /* About Page */
@@ -1409,42 +1274,6 @@ span {
 
   .menu-area-responsive > ul {
     margin: 0 42px 0 0;
-  }
-
-  /* Hero */
-
-  .hero {
-    height: 640px;
-    width: 1111px;
-    flex-direction: row;
-    background-position: 471px 0;
-    padding: 0;
-    border-radius: 15px;
-  }
-
-  .textfield-hero {
-    width: 540px;
-    height: 350px;
-    margin: 145px 0 145px 95px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .textfield-hero > h1 {
-    text-align: start;
-    margin-bottom: 11px;
-  }
-
-  .textfield-hero > p {
-    text-align: start;
-    margin-bottom: 40px;
-  }
-
-  .phoneimg-area {
-    position: absolute;
-    top: 294px;
-    left: 260px;
   }
 
   /* project buttons */

@@ -7,17 +7,16 @@ import PageLinkButton from "../PageLinkButton"
 const HomePage = ({hamburger}) => {
     return (
         <div className={hamburger === false ? "row" : "row blurry"}>
-            <div className="hero">
-                <div className="textfield-hero">
-                    <h1>Award-winning custom designs and digital branding solutions</h1>
-                    <p>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
-                    <Link to="/about" className="btn hero-btn">Learn more</Link>
+            <div className="pt-20 px-6 bg-peach bg-hero-mobile-oval bg-no-repeat bg-bottom">
+                <div className="text-center text-white">
+                    <h1 className="mb-4 text-3xl">Award-winning custom designs and digital branding solutions</h1>
+                    <p className="mb-6">With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
+                    <Link to="/about" className="text-black bg-white py-2 px-4 rounded-lg mb-20">Learn more</Link>
                 </div>
-                <div className="phoneimg-area">
-                    <img className="phoneimg-hero" src={phoneframe} alt="phoneframe" />
+                <div className="w-full h-96 bg-hero-mobile-mobile bg-center bg-no-repeat bg-contain">
                 </div>
             </div>
-            <div id="DD1" className="DD"></div>
+            <div id="DD1" className="hidden DD"></div>
             <div className="row">
                 <div className="project-btn-area">
                     <PageLinkButton page="webdesign" h1="Web Design" c="btn project-btn project-btn-first" />

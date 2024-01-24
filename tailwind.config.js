@@ -18,6 +18,8 @@ module.exports = {
         'hero-mobile-footer': "url(./newimg/mobile-footer-hero.png)",
         'hero-tablet-footer': "url(./newimg/tablet-footer-hero.png)",
         'hero-desktop-footer': "url(./newimg/desktop-footer-hero.png)",
+        'hero-mobile-mobile': "url(./newimg/mobile-hero-mobile.png)",
+        'hero-mobile-oval': "url(./newimg/mobile-hero-oval.png)",
       }
     },
   },
